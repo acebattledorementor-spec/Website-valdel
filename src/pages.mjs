@@ -118,7 +118,7 @@ ${counters()}
 <section class="section section--grey">
   <div class="wrap">
     <div class="section-head"><div><p class="eyebrow">What we engineer</p><h2>Six offshore asset types</h2></div><a class="link-arrow" href="/capabilities/">Capability matrix</a></div>
-    <div class="cards cards-3">${list(C.assets, (a) => `<article class="card reveal">${icon(a.icon)}<h3><a href="/capabilities/${a.slug}/">${esc(a.name)}</a></h3><p>${esc(a.line)}</p><a class="link-arrow" href="/projects/?asset=${a.slug}">See projects</a></article>`)}</div>
+    <div class="cards cards-3">${list(C.assets, (a) => `<article class="card reveal">${icon(a.icon)}<h3><a href="/capabilities/${a.slug}/">${esc(a.name)}</a></h3><p>${esc(a.line)}</p><a class="link-arrow" href="/capabilities/${a.slug}/" aria-hidden="true" tabindex="-1">What, how and who</a></article>`)}</div>
   </div>
 </section>
 <section class="section">
@@ -183,24 +183,32 @@ ${ctaBand('Have a scope that fits?', 'Send the tender package and a VDE engineer
 
 export function assetPage(a) {
   const crumbs = [['Capabilities', '/capabilities/'], [a.name, `/capabilities/${a.slug}/`]];
-  const projs = relatedProjects((p) => p.assets.includes(a.slug));
   const svcs = C.services.filter((s) => s.assets.includes(a.slug));
   const body = `${pageHero({ crumbs, eyebrow: 'What we engineer', h1: esc(a.name), lead: esc(a.intro), aside: heroFigure(a.image, `${a.name} – VDE model`), extra: `<div class="btn-row" style="margin-top:1.5rem"><a class="btn btn-primary" href="/contact/?asset=${a.slug}#tender">Send a tender package</a></div>` })}
-<section class="section"><div class="wrap split">
+<section class="section" aria-labelledby="what-h"><div class="wrap"><div class="prose measure">
+  <p class="eyebrow">What it is</p><h2 id="what-h">In plain terms</h2>
+  ${list(a.what, (p) => `<p>${esc(p)}</p>`)}
+</div></div></section>
+<section class="section section--grey" aria-labelledby="how-h"><div class="wrap">
+  <div class="section-head"><div><p class="eyebrow">How it is engineered</p><h2 id="how-h">From design basis to construction</h2></div></div>
+  <ol class="steps">${list(a.how, (h) => `<li><strong>${esc(h.t)}</strong><span>${esc(h.d)}</span></li>`)}</ol>
+</div></section>
+<section class="section" aria-labelledby="who-h"><div class="wrap">
+  <div class="section-head"><div><p class="eyebrow">Who works on it</p><h2 id="who-h">The teams behind a ${esc(a.short.toLowerCase())} scope</h2></div></div>
+  <div class="cards cards-3">${list(a.who, (w) => `<article class="card">${icon(discipline(w.discipline).icon)}<h3><a href="/disciplines/${w.discipline}/">${esc(discipline(w.discipline).name)}</a></h3><p>${esc(w.role)}</p></article>`)}</div>
+</div></section>
+<section class="section section--grey"><div class="wrap split">
   <div class="prose">
     <h2>What we deliver</h2>
     <ul class="ticks cols-2">${list(a.deliverables, (d) => `<li>${esc(d)}</li>`)}</ul>
     <h2>Services for this asset</h2>
     ${chipsLinks(svcs.map((s) => [s.name, `/services/${s.slug}/`]))}
-    <h2>Disciplines involved</h2>
-    ${chipsLinks(a.disciplines.map((d) => [discipline(d).name, `/disciplines/${d}/`]))}
   </div>
   <aside class="facts sticky-aside" aria-labelledby="spec-h"><h2 id="spec-h">Codes and tools</h2>
     <dl><dt>Codes</dt><dd>${esc(a.codes.join(', '))}, client standards ${CONFIRM('codes list with HODs')}</dd><dt>Software</dt><dd>${esc(a.tools.join(', '))}</dd></dl>
   </aside>
 </div></section>
-${projectsSection(projs, `${esc(a.short)} case studies`, 'No case study published yet for this asset.')}
-<section class="section"><div class="wrap"><div class="faq measure"><h2>Questions buyers ask</h2>${list(a.faq, (f) => `<details><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`)}</div>${C.P ? REVIEW('Draft copy', ['Review deliverables and FAQ answers with the discipline HODs.']) : ''}</div></section>
+<section class="section"><div class="wrap"><div class="faq measure"><h2>Questions buyers ask</h2>${list(a.faq, (f) => `<details><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`)}</div>${C.P ? REVIEW('Draft copy', ['Review the What / How / Who text, deliverables and FAQ answers with the discipline HODs.']) : ''}</div></section>
 ${ctaBand(`Send a tender package for a ${esc(a.short.toLowerCase())} scope`, 'Attach the ITB or scope of work. We reply with questions, a team and a plan.', ['Send a tender package', `/contact/?asset=${a.slug}#tender`], ['Request pre-bid support', '/services/pre-bid/#request'])}`;
   const faq = { '@type': 'FAQPage', mainEntity: a.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) };
   const svc = { '@type': 'Service', name: `${a.name} engineering`, serviceType: a.name, provider: { '@id': orgId() }, description: a.intro, url: absUrl(`/capabilities/${a.slug}/`) };

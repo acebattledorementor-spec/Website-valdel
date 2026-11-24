@@ -71,7 +71,63 @@
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tamar_jacket_launch_2.JPG"
-      }
+      },
+      "what": [
+        "A wellhead platform is an offshore platform built over a group of oil or gas wells. It carries the wellheads and the valves that control each well, with little or no processing on board: the well fluids go by pipeline to a process platform or to shore. Many are unmanned and visited only for maintenance, so most have a helideck for access.",
+        "The platform stands on a jacket: a welded steel lattice tower that reaches from the seabed to above the waves. Steel piles driven through or alongside the jacket legs fix it to the seabed. The topside, the deck structure on top of the jacket, carries the wellheads, piping, electrical and instrument equipment and the helideck."
+      ],
+      "how": [
+        {
+          "t": "Design basis",
+          "d": "Water depth, soil data, wave, wind, current and seismic criteria and the topside loads are agreed with the client."
+        },
+        {
+          "t": "Concept and sizing",
+          "d": "Jacket shape, number of legs and piles and deck levels are chosen, and a first weight estimate is made."
+        },
+        {
+          "t": "Structural analysis",
+          "d": "The structure is checked for storm, fatigue and earthquake loads, and the piles for capacity and drivability."
+        },
+        {
+          "t": "Installation checks",
+          "d": "Load-out, sea transport and lift are analysed, so the structure survives the journey offshore as well as the sea."
+        },
+        {
+          "t": "Topside design",
+          "d": "Piping, mechanical, electrical and instrument layouts are developed in the 3D model around the wellheads."
+        },
+        {
+          "t": "Issue for construction",
+          "d": "IFC drawings, material take-offs and weight reports go to the fabrication yard."
+        }
+      ],
+      "who": [
+        {
+          "discipline": "offshore-structural",
+          "role": "Designs the jacket, piles, topside structure and helideck, and runs the in-place, fatigue, seismic and installation analyses."
+        },
+        {
+          "discipline": "piping",
+          "role": "Lays out the wellhead and flowline piping and checks it for stress."
+        },
+        {
+          "discipline": "mechanical",
+          "role": "Specifies equipment such as cranes, pumps and vessels, and reviews vendor data."
+        },
+        {
+          "discipline": "electrical",
+          "role": "Designs power distribution, lighting and hazardous-area equipment on the topside."
+        },
+        {
+          "discipline": "instrumentation-control",
+          "role": "Designs the well control, shutdown and monitoring instrumentation."
+        },
+        {
+          "discipline": "3d-model-layout",
+          "role": "Builds the 3D model where every discipline is coordinated and clashes are found before fabrication."
+        }
+      ]
     },
     {
       "slug": "process-platforms",
@@ -147,7 +203,71 @@
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Unocol_Oil_Production_Platform_P9_Horizon_North_Sea.jpg"
-      }
+      },
+      "what": [
+        "A process platform is where the oil, gas and water coming from the wells are separated and treated before export. It is usually the hub of an offshore field: wellhead platforms send their production to it by pipeline or bridge, and it sends export-quality oil and gas on to shore or to a tanker.",
+        "On board are separators, compressors, pumps and heat exchangers, plus the utility systems that support them: power generation, cooling, fuel gas, flare and fire protection. Because the platform handles hydrocarbons under pressure, safety systems and hazardous-area design are central to the engineering. Medium and large process platforms weigh thousands of tonnes and are usually manned."
+      ],
+      "how": [
+        {
+          "t": "Process design",
+          "d": "Simulations set the heat and material balances, then PFDs and P&IDs define every line, valve and instrument."
+        },
+        {
+          "t": "Equipment",
+          "d": "Each equipment item is sized and specified, and vendor offers are reviewed."
+        },
+        {
+          "t": "Safety",
+          "d": "Relief, flare and hazardous-area studies set how the plant is protected, and the safety instrumented systems are designed."
+        },
+        {
+          "t": "Layout",
+          "d": "Equipment and piping are arranged deck by deck in one 3D model, with access, escape routes and maintenance space."
+        },
+        {
+          "t": "Structure",
+          "d": "The topside structure is designed for equipment weights, lifting and accidental loads."
+        },
+        {
+          "t": "Detail and IFC",
+          "d": "Isometrics, cable schedules, datasheets and drawings are issued for construction."
+        }
+      ],
+      "who": [
+        {
+          "discipline": "process",
+          "role": "Runs the simulations, develops the P&IDs and sets the design conditions for every system."
+        },
+        {
+          "discipline": "mechanical",
+          "role": "Sizes and specifies the rotating and static equipment and reviews vendor documents."
+        },
+        {
+          "discipline": "piping",
+          "role": "Designs the piping layout and material specifications, and runs stress analysis."
+        },
+        {
+          "discipline": "electrical",
+          "role": "Designs power generation and distribution, load lists and hazardous-area equipment."
+        },
+        {
+          "discipline": "instrumentation-control",
+          "role": "Designs the control and safety systems (DCS, SIS) and specifies every instrument."
+        },
+        {
+          "discipline": "telecommunication",
+          "role": "Designs communications on board: radio, public address, CCTV and networks."
+        },
+        {
+          "discipline": "offshore-structural",
+          "role": "Designs the decks and the topside structure that carries the plant."
+        },
+        {
+          "discipline": "3d-model-layout",
+          "role": "Coordinates all disciplines in the 3D model and produces the layouts."
+        }
+      ]
     },
     {
       "slug": "fpso-topsides",
@@ -214,7 +334,67 @@
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:SeaRose_FPSO_and_offshore_support_vessels.jpg"
-      }
+      },
+      "what": [
+        "An FPSO (floating production, storage and offloading unit) is a ship-shaped vessel that produces oil and gas offshore, stores the oil in its hull and offloads it to shuttle tankers. It is used where fixed platforms are not practical, such as deep water or remote fields with no pipeline to shore.",
+        "The processing plant sits on deck in topside modules: steel-framed blocks that each hold one part of the plant, such as separation, gas compression, water injection or power generation. Modules are built on land, lifted onto the hull and connected. Because the hull moves with the waves and has deck-load limits, the weight and centre of gravity of every module must be closely controlled."
+      ],
+      "how": [
+        {
+          "t": "Module split",
+          "d": "The plant is divided into modules, and each module gets its equipment list, footprint and weight budget."
+        },
+        {
+          "t": "Layout",
+          "d": "Equipment and piping are arranged inside each module, with access and interfaces to the hull and neighbouring modules."
+        },
+        {
+          "t": "Structure",
+          "d": "Module frames are designed for vessel motions, lifting onto the hull and sea transport."
+        },
+        {
+          "t": "Systems design",
+          "d": "Piping, mechanical and E&I design are completed module by module."
+        },
+        {
+          "t": "Weight control",
+          "d": "The weight report is updated at every stage and checked against the lift and hull limits."
+        },
+        {
+          "t": "Issue for construction",
+          "d": "Drawings, isometrics and the 3D model are issued for fabrication."
+        }
+      ],
+      "who": [
+        {
+          "discipline": "process",
+          "role": "Defines the process and utility systems in each module."
+        },
+        {
+          "discipline": "mechanical",
+          "role": "Sizes and specifies the module equipment and reviews vendor documents."
+        },
+        {
+          "discipline": "piping",
+          "role": "Designs the piping inside each module and the connections between modules."
+        },
+        {
+          "discipline": "electrical",
+          "role": "Designs module power distribution and hazardous-area equipment."
+        },
+        {
+          "discipline": "instrumentation-control",
+          "role": "Designs the module instrumentation and its links to the vessel control and safety systems."
+        },
+        {
+          "discipline": "offshore-structural",
+          "role": "Designs the module frames for vessel motions, lifting and transport, and supports weight control."
+        },
+        {
+          "discipline": "3d-model-layout",
+          "role": "Builds the module 3D models and checks interfaces with the hull and other modules."
+        }
+      ]
     },
     {
       "slug": "subsea-pipelines",
@@ -278,7 +458,55 @@
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pipelay_vessel_Sapura_Jade_-_Heijplaat_-_Heysehaven_-_Rotterdam_(22416866235).jpg"
-      }
+      },
+      "what": [
+        "Subsea pipelines carry oil, gas and water along the seabed: from wells to platforms, between platforms and from the field to shore. They are steel pipes, often with a concrete weight coating, protected from corrosion by coatings and anodes.",
+        "Where a pipeline reaches a platform, a riser takes it up the jacket to the topside. Tie-in spools are short pipe sections that connect the pipeline to the riser or to subsea equipment. A PLEM (pipeline end manifold) is a seabed structure at the end of a line where valves and connections are grouped."
+      ],
+      "how": [
+        {
+          "t": "Sizing",
+          "d": "Flow simulations set the pipe diameter for the expected flow rates and pressures."
+        },
+        {
+          "t": "Wall thickness",
+          "d": "The steel wall is designed for internal pressure, external collapse and buckling."
+        },
+        {
+          "t": "Stability and spans",
+          "d": "Checks show the pipe stays in place under waves and currents, and spans over uneven seabed are assessed."
+        },
+        {
+          "t": "Corrosion protection",
+          "d": "Coatings and cathodic protection are designed to last the design life."
+        },
+        {
+          "t": "Risers, spools and PLEMs",
+          "d": "The connections at each end of the line are designed and analysed."
+        },
+        {
+          "t": "Installation and as-built",
+          "d": "Pipelay is analysed, then alignment sheets and as-built records are produced."
+        }
+      ],
+      "who": [
+        {
+          "discipline": "pipelines",
+          "role": "Designs the pipeline, risers and spools: wall thickness, stability, free spans, cathodic protection and installation."
+        },
+        {
+          "discipline": "process",
+          "role": "Sizes the line and provides flow assurance input."
+        },
+        {
+          "discipline": "offshore-structural",
+          "role": "Designs PLEMs, riser clamps and supports."
+        },
+        {
+          "discipline": "3d-model-layout",
+          "role": "Models the route, crossings and tie-ins and produces the drawings."
+        }
+      ]
     },
     {
       "slug": "brownfield",
@@ -343,7 +571,63 @@
         "license": "Public domain",
         "licenseUrl": "",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:BSEE_and_BOEM_Prepare_Draft_Programmatic_Environmental_Assessment_for_BSEE%E2%80%99s_Permitted_Activities_on_the_Southern_California_Planning_Area_(44150055532).jpg"
-      }
+      },
+      "what": [
+        "Brownfield engineering is work on platforms that are already built and producing. Over a field's life, operators add wells, tie in new pipelines, replace equipment, raise production or extend the platform's service life. Every change has to fit into an existing structure and plant.",
+        "Unlike a new design, brownfield work starts from what is already there. Drawings may be out of date, the structure may have corroded or been changed, and the platform usually keeps producing while the work is done. Records review, as-built checks and re-analysis of the existing structure come first."
+      ],
+      "how": [
+        {
+          "t": "Records review",
+          "d": "Existing drawings, models and inspection reports are reviewed and the gaps listed."
+        },
+        {
+          "t": "As-built verification",
+          "d": "The current state is confirmed from surveys and the 3D model is updated."
+        },
+        {
+          "t": "Re-analysis",
+          "d": "The existing jacket and topside are checked for the new loads and their present condition."
+        },
+        {
+          "t": "Modification design",
+          "d": "New equipment, piping, tie-ins and structural changes are designed to fit the existing plant."
+        },
+        {
+          "t": "Offshore execution",
+          "d": "Work is packaged so it can be installed offshore with as little shutdown as possible."
+        },
+        {
+          "t": "Records update",
+          "d": "As-built drawings, models and weight data are updated for the operator."
+        }
+      ],
+      "who": [
+        {
+          "discipline": "offshore-structural",
+          "role": "Re-analyses the existing jacket and topside and designs strengthening and new supports."
+        },
+        {
+          "discipline": "piping",
+          "role": "Designs tie-ins and piping modifications into live systems."
+        },
+        {
+          "discipline": "process",
+          "role": "Checks how each change affects the existing process systems."
+        },
+        {
+          "discipline": "electrical",
+          "role": "Designs electrical modifications and checks the load on existing supplies."
+        },
+        {
+          "discipline": "instrumentation-control",
+          "role": "Modifies the control, shutdown and instrument systems."
+        },
+        {
+          "discipline": "3d-model-layout",
+          "role": "Updates the as-built 3D model and drawings."
+        }
+      ]
     },
     {
       "slug": "offshore-wind",
@@ -403,7 +687,51 @@
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Electrical_offshore_substation_ROW01-Z01_on_Sarens_barge_Caroline.jpg"
-      }
+      },
+      "what": [
+        "An offshore wind farm needs an offshore substation (OSS) to collect power from its turbines and send it to shore. The substation steps up the voltage (HVAC) or converts alternating current to direct current (HVDC), so the power can travel long distances by export cable with low losses.",
+        "The substation sits on a platform much like an oil and gas platform: a steel jacket piled to the seabed and a topside holding transformers, switchgear and, for HVDC, converter equipment. The topside is heavy, and its layout is driven by the electrical equipment and the cooling, fire protection and access around it."
+      ],
+      "how": [
+        {
+          "t": "Design basis",
+          "d": "Site, metocean and soil data, and the electrical equipment list and weights, are agreed."
+        },
+        {
+          "t": "Layout",
+          "d": "Transformers, switchgear and support systems are arranged in the topside and the 3D model."
+        },
+        {
+          "t": "Structural design",
+          "d": "The jacket and topside are designed for storm, fatigue and earthquake loads."
+        },
+        {
+          "t": "Optimisation",
+          "d": "Steel weight is cut while meeting every code check, which lowers fabrication and installation cost."
+        },
+        {
+          "t": "Installation checks",
+          "d": "Load-out, transport and lift are analysed."
+        },
+        {
+          "t": "Weight and IFC",
+          "d": "Weight reports and construction drawings are issued."
+        }
+      ],
+      "who": [
+        {
+          "discipline": "offshore-structural",
+          "role": "Designs and optimises the jacket and topside, and runs the in-place, fatigue, seismic and installation analyses."
+        },
+        {
+          "discipline": "electrical",
+          "role": "Provides the electrical equipment layout and interfaces for transformers and switchgear."
+        },
+        {
+          "discipline": "3d-model-layout",
+          "role": "Builds the 3D model and the equipment layout."
+        }
+      ]
     }
   ]
 }
