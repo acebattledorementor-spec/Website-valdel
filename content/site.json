@@ -1,0 +1,312 @@
+{
+  "_note": "Company-wide settings. Every item with confirmed:false or permission:false is shown with a marker in the preview build and hidden (or anonymised) in the production build.",
+  "domain": {
+    "value": "https://offshore.valdel.com",
+    "confirmed": false
+  },
+  "legalName": "Valdel Design Engineering Pvt. Ltd.",
+  "shortName": "VDE",
+  "groupName": "Valdel Group",
+  "formed": 2022,
+  "heritageSince": 1990,
+  "tagline": "Offshore engineering for EPC contractors – from tender to installation.",
+  "heroSub": "Jackets, wellhead and process platforms, FPSO topsides, subsea pipelines and offshore wind substations – multi-discipline engineering from Bengaluru, ISO 9001:2015.",
+  "brandPromise": "VALDEL stands for Value Delivered.",
+  "address": {
+    "street": "2nd Floor, Prasad Enclave, Plot No. 118/119, Yeshwanthpur Suburb II Stage, Yeshwanthpur Suburb, Peenya",
+    "locality": "Bengaluru",
+    "region": "Karnataka",
+    "postcode": "560058",
+    "country": "India",
+    "countryCode": "IN",
+    "confirmed": true
+  },
+  "statutory": {
+    "cin": "U74999KA2022PTC166119",
+    "incorporated": "15 September 2022",
+    "pan": "AAICV9854C",
+    "gstin": "29AAICV9854C1ZT"
+  },
+  "phone": "",
+  "linkedin": "",
+  "mapUrl": "https://maps.app.goo.gl/v4dne1UnQngKmEfM9",
+  "officeHours": "9:00 AM to 5:30 PM (IST)",
+  "enquiryEmail": "",
+  "careersEmail": "hrblr@valdelec.com",
+  "emailDomain": "valdelec.com",
+  "groupUrl": "https://www.valdel.com",
+  "onshoreUrl": "https://www.valdel.com/oil_gas/engineers_and_constructors",
+  "onshoreName": "Valdel Engineers & Constructors",
+  "iso": {
+    "standard": "ISO 9001:2015",
+    "certificateNumber": "134349/A/0001/UK/En",
+    "certificationBody": "United Registrar of Systems (URS), UKAS-accredited",
+    "validUntil": "5 October 2028",
+    "procedures": [
+      "PR-002 HR",
+      "PR-003 Business development",
+      "PR-007 Projects",
+      "PR-008 Engineering"
+    ]
+  },
+  "team": {
+    "size": "50+",
+    "seniorShare": "55%",
+    "seniorDefinition": "15+ years' experience",
+    "growthTarget": "about 90",
+    "growthBy": "mid-2027"
+  },
+  "counters": {
+    "asOf": "November 2026",
+    "items": [
+      {
+        "value": "15+",
+        "label": "offshore engineering projects",
+        "note": "",
+        "confirmed": true
+      },
+      {
+        "value": "50+",
+        "label": "engineering personnel",
+        "note": "",
+        "confirmed": true
+      },
+      {
+        "value": "55%",
+        "label": "of the offshore team has 15+ years' experience",
+        "note": "",
+        "confirmed": true
+      }
+    ]
+  },
+  "responseCommitment": {
+    "value": "A VDE engineer replies within 1 working day.",
+    "confirmed": false
+  },
+  "calendarUrl": "",
+  "ndaTemplateUrl": "",
+  "uploadRetentionDays": {
+    "value": 90,
+    "confirmed": true
+  },
+  "grievanceOfficer": {
+    "name": "",
+    "email": ""
+  },
+  "markets": {
+    "confirmed": false,
+    "items": [
+      "India",
+      "Saudi Arabia",
+      "Qatar",
+      "UAE",
+      "South Korea",
+      "Thailand",
+      "Malaysia",
+      "Indonesia",
+      "Brunei",
+      "the Caribbean"
+    ]
+  },
+  "codes": {
+    "confirmed": false,
+    "items": [
+      "API RP 2A",
+      "ISO 19901",
+      "ISO 19902",
+      "AISC",
+      "DNV-ST-F101",
+      "DNV-RP-F109",
+      "DNV-RP-C203",
+      "ASME B31.3",
+      "ASME B31.4",
+      "ASME B31.8",
+      "IEC 60079",
+      "IEC 61511",
+      "Client and operator standards"
+    ]
+  },
+  "clients": [
+    {
+      "name": "L&T Energy Hydrocarbon",
+      "short": "LTEH",
+      "type": "EPC",
+      "permission": true,
+      "logo": ""
+    },
+    {
+      "name": "Lamprell",
+      "short": "Lamprell",
+      "type": "EPC",
+      "permission": true,
+      "logo": ""
+    },
+    {
+      "name": "HHI",
+      "short": "HHI",
+      "type": "EPC",
+      "permission": true,
+      "logo": ""
+    },
+    {
+      "name": "McDermott",
+      "short": "McDermott",
+      "type": "EPC",
+      "permission": true,
+      "logo": ""
+    },
+    {
+      "name": "Thai Nippon Steel E&C",
+      "short": "TNS",
+      "type": "EPC",
+      "permission": true,
+      "logo": ""
+    },
+    {
+      "name": "Hilong",
+      "short": "Hilong",
+      "type": "EPC",
+      "permission": true,
+      "logo": ""
+    },
+    {
+      "name": "ONGC",
+      "short": "ONGC",
+      "type": "End user",
+      "permission": true,
+      "logo": ""
+    },
+    {
+      "name": "Saudi Aramco",
+      "short": "Saudi Aramco",
+      "type": "End user",
+      "permission": true,
+      "logo": ""
+    },
+    {
+      "name": "QatarEnergy",
+      "short": "QatarEnergy",
+      "type": "End user",
+      "permission": true,
+      "logo": ""
+    },
+    {
+      "name": "North Oil Company",
+      "short": "NOC",
+      "type": "End user",
+      "permission": true,
+      "logo": ""
+    },
+    {
+      "name": "INPEX",
+      "short": "INPEX",
+      "type": "End user",
+      "permission": true,
+      "logo": ""
+    }
+  ],
+  "certificates": [
+    {
+      "name": "ISO 9001:2015 Quality Management System",
+      "issuer": "United Registrar of Systems (URS), UKAS-accredited",
+      "number": "134349/A/0001/UK/En",
+      "expiry": "2028-10-05",
+      "file": ""
+    }
+  ],
+  "prequalPack": {
+    "items": [
+      {
+        "name": "Company profile"
+      },
+      {
+        "name": "ISO 9001:2015 certificate"
+      },
+      {
+        "name": "Organisation chart"
+      },
+      {
+        "name": "Key CV summaries"
+      },
+      {
+        "name": "Software and licence list"
+      },
+      {
+        "name": "HSE policy"
+      },
+      {
+        "name": "Quality policy"
+      },
+      {
+        "name": "Insurance certificates"
+      },
+      {
+        "name": "GST, PAN and incorporation details"
+      },
+      {
+        "name": "Vendor registrations held"
+      },
+      {
+        "name": "Bank details",
+        "onRequest": true
+      }
+    ]
+  },
+  "vendorRegistrations": [],
+  "heritage": [
+    {
+      "year": "1990",
+      "text": "Offshore: joint venture of MSR Group and John Brown Engineering UK."
+    },
+    {
+      "year": "1996",
+      "text": "Kvaerner acquires John Brown UK; the joint venture continues."
+    },
+    {
+      "year": "2000",
+      "text": "MSR Group takes the full stake: John Brown Technologies (India)."
+    },
+    {
+      "year": "2002",
+      "text": "Onshore: S&B Engineers, Houston joins (Indo-American joint venture)."
+    },
+    {
+      "year": "2003",
+      "text": "Valdel EC – Valdel Engineers and Constructors, focused only on onshore projects."
+    },
+    {
+      "year": "2004–12",
+      "text": "L&T–Valdel focuses on upstream offshore engineering."
+    },
+    {
+      "year": "2022",
+      "text": "Valdel Design Engineering formed as an offshore engineering sub-contractor to EPCs."
+    }
+  ],
+  "heroImage": {
+    "src": "/img/stock/hero-platforms.webp",
+    "width": 1600,
+    "height": 1200,
+    "alt": "Two offshore production platforms on steel jackets, linked by a bridge, with drilling derricks and cranes, in calm sea.",
+    "caption": "Platforms Ellen and Elly, offshore Long Beach, California. Illustrative photo, not a VDE project.",
+    "credit": "US Bureau of Safety and Environmental Enforcement (BSEE)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Platforms_Ellen_and_Elly_offshore_near_Long_Beach,_Calif_in_BSEE%E2%80%99s_Pacific_Region_(15416983543).jpg"
+  },
+  "officePhoto": {
+    "src": "/img/office-bengaluru.webp",
+    "alt": "Open-plan engineering office of Valdel Design Engineering in Peenya, Bengaluru: rows of workstations with dual monitors under a white grid ceiling.",
+    "caption": "VDE engineering office, Peenya, Bengaluru.",
+    "width": 1600,
+    "height": 1200,
+    "consent": true
+  },
+  "analytics": {
+    "provider": "plausible",
+    "domain": "",
+    "src": ""
+  },
+  "turnstileSiteKey": "",
+  "formEndpoint": "/api/submit"
+}

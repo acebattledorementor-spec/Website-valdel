@@ -1,0 +1,81 @@
+{
+  "slug": "crpo-88-89-90-jackets",
+  "publish": true,
+  "featured": true,
+  "order": 1,
+  "title": "Saudi Aramco CRPO 88/89/90: detail engineering of 10 jackets",
+  "anonTitle": "Detail engineering of 10 platform jackets, Middle East",
+  "scope": "Detail engineering of 10 SSS platform jackets.",
+  "epc": {
+    "name": "L&T Energy Hydrocarbon",
+    "permission": true
+  },
+  "anonEpc": "Offshore EPC contractor",
+  "endUser": {
+    "name": "Saudi Aramco",
+    "permission": true
+  },
+  "anonEndUser": "National oil company, Middle East",
+  "clientType": "EPC",
+  "assets": [
+    "wellhead-platforms-jackets"
+  ],
+  "services": [
+    "detail-engineering"
+  ],
+  "disciplines": [
+    "offshore-structural",
+    "3d-model-layout",
+    "project-controls"
+  ],
+  "region": "Middle East",
+  "country": "Saudi Arabia",
+  "status": "",
+  "year": "",
+  "codes": [],
+  "software": [],
+  "facts": [
+    {
+      "label": "Structures",
+      "value": "10 jackets"
+    },
+    {
+      "label": "Water depth",
+      "value": ""
+    },
+    {
+      "label": "Duration",
+      "value": ""
+    },
+    {
+      "label": "Engineering man-hours",
+      "value": ""
+    },
+    {
+      "label": "Deliverables issued",
+      "value": ""
+    },
+    {
+      "label": "Jacket tonnage",
+      "value": ""
+    }
+  ],
+  "challenge": "The EPC contractor needed detail engineering for 10 SSS platform jackets under one contract package. Several jackets had to move through design, checking and issue in parallel, to the contractor's document standards and the end user's specifications.",
+  "approach": [
+    "Structural design of each jacket from the contractor's design basis.",
+    "Analyses, drawings and MTOs checked by an engineer other than the preparer.",
+    "Inter-discipline check before every issue to the contractor.",
+    "Deliverables tracked against one list across all 10 jackets."
+  ],
+  "quote": {
+    "text": "",
+    "by": "",
+    "permission": false
+  },
+  "images": [],
+  "reviewNotes": [
+    "Narrative drafted from the one-line scope: confirm with the project lead.",
+    "Confirm disciplines, codes (e.g. API RP 2A, SAES) and software (e.g. SACS).",
+    "Confirm status and year."
+  ]
+}

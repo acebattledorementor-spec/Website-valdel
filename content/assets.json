@@ -1,0 +1,409 @@
+{
+  "items": [
+    {
+      "slug": "wellhead-platforms-jackets",
+      "name": "Wellhead platforms & jackets",
+      "short": "Wellhead platforms",
+      "icon": "jacket",
+      "line": "Platforms, jackets, piles and topsides, including helidecks.",
+      "intro": "We engineer wellhead platforms from the piles up: jacket, piles, topside structure, helideck and the topside facilities, for fabrication-ready issue.",
+      "seoTitle": "Offshore jacket & wellhead platform engineering | VDE",
+      "seoDescription": "Jacket, pile, topside and helideck design engineering for wellhead platforms. In-place, fatigue, seismic, load-out and lift analyses. Bengaluru, India.",
+      "deliverables": [
+        "Jacket, pile and topside structural design reports",
+        "In-place, fatigue and seismic analyses",
+        "Load-out, transportation and lift analyses",
+        "Pile drivability studies",
+        "Helideck structure design",
+        "Topside piping layouts, stress analysis and isometrics",
+        "Electrical and instrumentation design for topside facilities",
+        "3D model, general arrangement and IFC structural drawings",
+        "Material take-offs (MTOs) and weight reports"
+      ],
+      "disciplines": [
+        "offshore-structural",
+        "piping",
+        "mechanical",
+        "electrical",
+        "instrumentation-control",
+        "3d-model-layout"
+      ],
+      "codes": [
+        "API RP 2A",
+        "ISO 19901",
+        "ISO 19902",
+        "AISC",
+        "DNV-RP-C203"
+      ],
+      "tools": [
+        "SACS",
+        "STAAD.Pro",
+        "Tekla",
+        "GRLWEAP",
+        "CAESAR II",
+        "AVEVA E3D / PDMS"
+      ],
+      "faq": [
+        {
+          "q": "Which codes do you design jackets and piles to?",
+          "a": "API RP 2A, ISO 19901 / 19902, AISC and DNV-RP-C203 for fatigue, plus the client's own standards."
+        },
+        {
+          "q": "Can you engineer several similar jackets in parallel?",
+          "a": "Yes. For one EPC contract we delivered detail engineering of 10 platform jackets. See the case study for scope."
+        },
+        {
+          "q": "Which structural software do you use?",
+          "a": "SACS for in-place, fatigue, seismic, load-out and lift analyses; GRLWEAP for pile drivability; STAAD.Pro and Tekla for topside structures and drawings."
+        },
+        {
+          "q": "Can you support us in the tender before award?",
+          "a": "Yes. Pre-bid engineering covers concept, configuration, weight estimate, MTOs and material requisitions within the tender window."
+        }
+      ],
+      "image": {
+        "src": "/img/stock/asset-wellhead-platforms-jackets.webp",
+        "width": 1600,
+        "height": 1200,
+        "alt": "A steel platform jacket sliding off a launch barge into the sea.",
+        "caption": "Tamar jacket launched from barge H851. Illustrative photo, not a VDE project.",
+        "credit": "BoH",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tamar_jacket_launch_2.JPG"
+      }
+    },
+    {
+      "slug": "process-platforms",
+      "name": "Process platforms",
+      "short": "Process platforms",
+      "icon": "process",
+      "line": "Medium to large process platforms, from FEED to IFC.",
+      "intro": "We deliver multi-discipline engineering for medium and large process platforms: process, mechanical, piping, E&I, telecom and structural, coordinated in one 3D model.",
+      "seoTitle": "Offshore process platform engineering services | VDE",
+      "seoDescription": "Multi-discipline engineering for medium and large offshore process platforms: process simulation, P&IDs, piping, E&I, structural and 3D model.",
+      "deliverables": [
+        "Process simulation, heat and material balances, PFDs and P&IDs",
+        "Safety studies input and relief and flare calculations",
+        "Equipment datasheets and material handling studies",
+        "Piping layouts, material specifications, stress analysis and isometrics",
+        "Electrical load lists, single-line diagrams and power system studies",
+        "Hazardous area classification",
+        "Instrument datasheets, SIS and DCS architecture, I/O lists",
+        "Telecom philosophy and network architecture",
+        "Topside structural design and the multi-discipline 3D model"
+      ],
+      "disciplines": [
+        "process",
+        "mechanical",
+        "piping",
+        "electrical",
+        "instrumentation-control",
+        "telecommunication",
+        "offshore-structural",
+        "3d-model-layout"
+      ],
+      "codes": [
+        "ASME B31.3",
+        "IEC 60079",
+        "IEC 61511",
+        "API RP 2A",
+        "ISO 19902",
+        "AISC"
+      ],
+      "tools": [
+        "HYSYS",
+        "PIPESIM",
+        "PIPENET",
+        "HTRI",
+        "PV Elite",
+        "CAESAR II",
+        "ETAP",
+        "SPI / SPPID",
+        "AVEVA E3D",
+        "S3D"
+      ],
+      "faq": [
+        {
+          "q": "Do you cover every discipline for a process platform?",
+          "a": "Yes: process, mechanical, piping, electrical, instrumentation and control, telecom, offshore structural and 3D layout are all in-house in Bengaluru."
+        },
+        {
+          "q": "Can you work in our 3D model environment?",
+          "a": "Yes. We work in AVEVA E3D / PDMS and S3D, on our servers or on the client's system over Citrix or VPN."
+        },
+        {
+          "q": "Which electrical and instrumentation codes do you apply?",
+          "a": "IEC 60079 for hazardous areas and IEC 61511 for safety instrumented systems, plus the project specification."
+        }
+      ],
+      "image": {
+        "src": "/img/stock/asset-process-platforms.webp",
+        "width": 1600,
+        "height": 914,
+        "alt": "Offshore oil production platform on a four-legged jacket, with helideck and flare boom, far out at sea.",
+        "caption": "Production platform P9 Horizon, North Sea. Illustrative photo, not a VDE project.",
+        "credit": "ImagePerson",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Unocol_Oil_Production_Platform_P9_Horizon_North_Sea.jpg"
+      }
+    },
+    {
+      "slug": "fpso-topsides",
+      "name": "FPSO topside modules",
+      "short": "FPSO topsides",
+      "icon": "fpso",
+      "line": "Process and utility modules: layouts, structure and weight control.",
+      "intro": "We engineer FPSO topside process and utility modules: module layouts, structural design, piping and E&I, with weight control from concept to as-built.",
+      "seoTitle": "FPSO topside module engineering | VDE",
+      "seoDescription": "FPSO topside process and utility module engineering: layouts, structural design, piping, E&I and weight control. Multi-discipline team in Bengaluru.",
+      "deliverables": [
+        "Module layouts and general arrangements",
+        "Module structural design, including lift and transportation cases",
+        "Piping layouts, stress analysis and isometrics",
+        "Equipment datasheets and vendor document review",
+        "Electrical and instrumentation design",
+        "Module weight reports and weight control",
+        "3D model and IFC drawings"
+      ],
+      "disciplines": [
+        "process",
+        "mechanical",
+        "piping",
+        "electrical",
+        "instrumentation-control",
+        "offshore-structural",
+        "3d-model-layout"
+      ],
+      "codes": [
+        "ASME B31.3",
+        "AISC",
+        "IEC 60079",
+        "IEC 61511"
+      ],
+      "tools": [
+        "SACS",
+        "STAAD.Pro",
+        "CAESAR II",
+        "AVEVA E3D",
+        "S3D",
+        "Tekla"
+      ],
+      "faq": [
+        {
+          "q": "Do you run weight control on FPSO modules?",
+          "a": "Yes. We keep the module weight report current from the first estimate through detail design and as-built, and report trends against the lift and hull limits."
+        },
+        {
+          "q": "Do you design the module structure as well as the facilities?",
+          "a": "Yes. Offshore structural covers the module frames, lift and transportation cases alongside the piping, mechanical and E&I design."
+        },
+        {
+          "q": "Can you take on a single module rather than a full topside?",
+          "a": "Yes. Scope can be one process or utility module, a group of modules or a single discipline across all modules."
+        }
+      ],
+      "image": {
+        "src": "/img/stock/asset-fpso-topsides.webp",
+        "width": 1600,
+        "height": 1064,
+        "alt": "An FPSO with lit topside modules at dusk, with offshore support vessels nearby.",
+        "caption": "SeaRose FPSO and offshore support vessels. Illustrative photo, not a VDE project.",
+        "credit": "Berardo62",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:SeaRose_FPSO_and_offshore_support_vessels.jpg"
+      }
+    },
+    {
+      "slug": "subsea-pipelines",
+      "name": "Subsea pipelines",
+      "short": "Subsea pipelines",
+      "icon": "pipeline",
+      "line": "Pipelines, risers, tie-in spools and PLEMs, from sizing to as-built.",
+      "intro": "We engineer subsea pipelines, risers, tie-in spools and PLEMs, from hydraulic sizing through detail design to as-built documentation.",
+      "seoTitle": "Subsea pipeline design engineering | VDE",
+      "seoDescription": "Subsea pipeline, riser, spool and PLEM engineering: sizing, wall thickness, on-bottom stability, free spans, cathodic protection and as-built records.",
+      "deliverables": [
+        "Pipeline sizing and flow assurance input",
+        "Wall thickness design",
+        "On-bottom stability analysis",
+        "Free span assessment",
+        "Riser and tie-in spool design",
+        "PLEM structural design",
+        "Cathodic protection design",
+        "Installation analyses",
+        "Alignment sheets, crossing drawings and as-built documentation"
+      ],
+      "disciplines": [
+        "pipelines",
+        "process",
+        "offshore-structural",
+        "3d-model-layout"
+      ],
+      "codes": [
+        "DNV-ST-F101",
+        "DNV-RP-F109",
+        "ASME B31.4",
+        "ASME B31.8"
+      ],
+      "tools": [
+        "OrcaFlex",
+        "OFFPIPE",
+        "DNV StableLines",
+        "PIPESIM"
+      ],
+      "faq": [
+        {
+          "q": "Which pipeline codes do you work to?",
+          "a": "DNV-ST-F101, DNV-RP-F109 for on-bottom stability, ASME B31.4 and B31.8, plus the project and operator specifications."
+        },
+        {
+          "q": "Do you cover risers and spools as well as the line pipe?",
+          "a": "Yes: pipelines, risers, tie-in spools and PLEMs, including stress, stability and cathodic protection design."
+        },
+        {
+          "q": "Which software do you use for pipeline analysis?",
+          "a": "OrcaFlex and OFFPIPE for installation and dynamic analyses, DNV StableLines for on-bottom stability and PIPESIM for hydraulics."
+        }
+      ],
+      "image": {
+        "src": "/img/stock/asset-subsea-pipelines.webp",
+        "width": 1600,
+        "height": 900,
+        "alt": "Red and white pipelay vessel with a yellow pipe-laying tower, moored in port.",
+        "caption": "Pipelay vessel Sapura Jade, Rotterdam. Illustrative photo, not a VDE project.",
+        "credit": "Frans Berkelaar",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pipelay_vessel_Sapura_Jade_-_Heijplaat_-_Heysehaven_-_Rotterdam_(22416866235).jpg"
+      }
+    },
+    {
+      "slug": "brownfield",
+      "name": "Brownfield",
+      "short": "Brownfield",
+      "icon": "brownfield",
+      "line": "Modifications, re-analysis and upgrades of existing platforms.",
+      "intro": "We engineer modifications, re-analysis and upgrades for platforms already in service, starting from the as-built records and the condition of the asset today.",
+      "seoTitle": "Brownfield offshore platform modifications | VDE",
+      "seoDescription": "Brownfield engineering for existing offshore platforms: structural re-analysis, modifications, tie-ins, upgrades and as-built updates.",
+      "deliverables": [
+        "Structural re-analysis of existing jackets and topsides",
+        "Modification and tie-in design",
+        "Piping and E&I modifications",
+        "As-built verification and 3D model updates",
+        "Weight and load updates",
+        "Updated as-built drawings and records"
+      ],
+      "disciplines": [
+        "offshore-structural",
+        "piping",
+        "process",
+        "electrical",
+        "instrumentation-control",
+        "3d-model-layout"
+      ],
+      "codes": [
+        "API RP 2A",
+        "ISO 19902",
+        "ASME B31.3",
+        "IEC 60079"
+      ],
+      "tools": [
+        "SACS",
+        "CAESAR II",
+        "AVEVA E3D / PDMS",
+        "S3D",
+        "AutoCAD",
+        "MicroStation"
+      ],
+      "faq": [
+        {
+          "q": "Can you start from incomplete as-built records?",
+          "a": "Yes. We review the records the operator holds, list the gaps and agree how each gap is closed before analysis starts."
+        },
+        {
+          "q": "Do you re-analyse existing jackets for new loads?",
+          "a": "Yes. We re-analyse existing structures in SACS for added topside loads, modified appurtenances or changed design criteria."
+        },
+        {
+          "q": "Can you update our existing 3D models and drawings?",
+          "a": "Yes. As-built drawings and 3D models in E3D / PDMS, S3D, AutoCAD and MicroStation are a core service."
+        }
+      ],
+      "image": {
+        "src": "/img/stock/asset-brownfield.webp",
+        "width": 1600,
+        "height": 1063,
+        "alt": "Two long-established offshore platforms linked by a bridge, off the coast of Southern California.",
+        "caption": "Existing production platforms, Southern California. Illustrative photo, not a VDE project.",
+        "credit": "US Bureau of Safety and Environmental Enforcement (BSEE)",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BSEE_and_BOEM_Prepare_Draft_Programmatic_Environmental_Assessment_for_BSEE%E2%80%99s_Permitted_Activities_on_the_Southern_California_Planning_Area_(44150055532).jpg"
+      }
+    },
+    {
+      "slug": "offshore-wind",
+      "name": "Offshore wind",
+      "short": "Offshore wind",
+      "icon": "wind",
+      "line": "HVDC and HVAC offshore substation (OSS) jackets and topsides.",
+      "intro": "We apply our oil and gas platform experience to offshore substation (OSS) platforms: jacket and topside structures for HVAC and HVDC substations.",
+      "seoTitle": "Offshore substation (OSS) jacket & topside design | VDE",
+      "seoDescription": "Offshore wind substation (OSS) engineering for HVAC and HVDC platforms: jacket and topside structural design and optimisation.",
+      "deliverables": [
+        "OSS jacket and topside structural design",
+        "Jacket and topside optimisation",
+        "In-place, fatigue and seismic analyses",
+        "Load-out, transportation and lift analyses",
+        "Equipment layout and 3D model",
+        "Weight reports"
+      ],
+      "disciplines": [
+        "offshore-structural",
+        "electrical",
+        "3d-model-layout"
+      ],
+      "codes": [
+        "ISO 19901",
+        "ISO 19902",
+        "AISC",
+        "DNV-RP-C203"
+      ],
+      "tools": [
+        "SACS",
+        "STAAD.Pro",
+        "Tekla",
+        "AVEVA E3D"
+      ],
+      "faq": [
+        {
+          "q": "Have you engineered offshore substation platforms?",
+          "a": "Yes. We optimised the OSS jacket and topside for the Taean offshore wind farm. See the case study for scope."
+        },
+        {
+          "q": "Do you cover both HVAC and HVDC substations?",
+          "a": "Our offshore wind scope covers HVAC and HVDC offshore substation platforms."
+        },
+        {
+          "q": "How does oil and gas platform experience transfer to OSS?",
+          "a": "The jacket, pile, load-out and lift engineering is the same discipline. The topside layout is driven by the electrical equipment instead of process equipment."
+        }
+      ],
+      "image": {
+        "src": "/img/stock/asset-offshore-wind.webp",
+        "width": 1600,
+        "height": 1200,
+        "alt": "Offshore electrical substation topside and jacket on a transport barge, pulled by a tug.",
+        "caption": "Offshore substation ROW01-Z01 (33/220 kV) on barge Caroline. Illustrative photo, not a VDE project.",
+        "credit": "Alf van Beem",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Electrical_offshore_substation_ROW01-Z01_on_Sarens_barge_Caroline.jpg"
+      }
+    }
+  ]
+}

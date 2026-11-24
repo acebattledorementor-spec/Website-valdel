@@ -1,0 +1,75 @@
+{
+  "slug": "taean-offshore-wind-oss",
+  "publish": true,
+  "featured": true,
+  "order": 4,
+  "title": "Taean Offshore Wind Farm: OSS jacket and topside optimisation",
+  "anonTitle": "Offshore substation jacket and topside optimisation, South Korea",
+  "scope": "Offshore substation (OSS) jacket and topside optimisation.",
+  "epc": {
+    "name": "HHI",
+    "permission": true
+  },
+  "anonEpc": "Offshore EPC contractor",
+  "endUser": {
+    "name": "",
+    "permission": false
+  },
+  "anonEndUser": "Offshore wind developer, South Korea",
+  "clientType": "EPC",
+  "assets": [
+    "offshore-wind"
+  ],
+  "services": [
+    "concept-feed"
+  ],
+  "disciplines": [
+    "offshore-structural"
+  ],
+  "region": "East Asia",
+  "country": "South Korea",
+  "status": "",
+  "year": "",
+  "codes": [],
+  "software": [],
+  "facts": [
+    {
+      "label": "Substation type",
+      "value": ""
+    },
+    {
+      "label": "Water depth",
+      "value": ""
+    },
+    {
+      "label": "Duration",
+      "value": ""
+    },
+    {
+      "label": "Jacket tonnage",
+      "value": ""
+    },
+    {
+      "label": "Topside tonnage",
+      "value": ""
+    }
+  ],
+  "challenge": "The EPC contractor wanted to reduce steel and cost in the offshore substation jacket and topside structure while keeping the design within code checks.",
+  "approach": [
+    "Review of the existing jacket and topside structural design.",
+    "Optimisation of member sizes and framing for the governing load cases.",
+    "Checks of the optimised design against the in-place and installation cases.",
+    "Optimised design handed over with the supporting calculations."
+  ],
+  "quote": {
+    "text": "",
+    "by": "",
+    "permission": false
+  },
+  "images": [],
+  "reviewNotes": [
+    "Service set to 'Concept / FEED' as an assumption: confirm the project phase.",
+    "Add the end user / developer name if it can be published.",
+    "Narrative drafted from the one-line scope: confirm with the project lead."
+  ]
+}

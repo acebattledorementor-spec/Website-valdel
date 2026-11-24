@@ -1,0 +1,315 @@
+# Decap CMS configuration – VDE offshore website
+# Non-developers edit projects, jobs, news, documents and company facts here.
+# Every save is a Git commit; Cloudflare Pages rebuilds the site in about a minute.
+# IMPORTANT: Decap writes only the fields declared below. Add a field here before adding it to a content file.
+
+backend:
+  name: github
+  repo: VALDEL-ORG/vde-offshore-website   # [CONFIRM] GitHub organisation / repository
+  branch: main
+  base_url: https://cms-auth.example.com  # [CONFIRM] OAuth proxy for GitHub login (see docs/launch-checklist.md)
+# Editorial workflow: changes are drafts until a reviewer publishes them
+publish_mode: editorial_workflow
+media_folder: src/static/img/uploads
+public_folder: /img/uploads
+site_url: https://offshore.valdel.com
+locale: en
+
+collections:
+  # ---------------------------------------------------------------- projects
+  - name: projects
+    label: Projects (case studies)
+    label_singular: Project
+    folder: content/projects
+    extension: json
+    format: json
+    create: true
+    slug: "{{fields.slug}}"
+    identifier_field: title
+    summary: "{{order}} · {{title}} · publish={{publish}}"
+    sortable_fields: [order, title]
+    fields:
+      - { name: slug, label: "URL slug (lower-case-with-dashes)", widget: string, pattern: ['^[a-z0-9-]+$', 'lower case letters, numbers and dashes only'] }
+      - { name: publish, label: "Publish on the website", widget: boolean, default: false, hint: "Leave off until the client has approved publication." }
+      - { name: featured, label: "Feature on the home page (max 3)", widget: boolean, default: false }
+      - { name: order, label: "Order", widget: number, value_type: int, default: 99 }
+      - { name: title, label: "Full title (with client / project names)", widget: string, hint: "Shown only when the client permission boxes below are ticked." }
+      - { name: anonTitle, label: "Anonymised title", widget: string, hint: "Shown when permission is not confirmed, e.g. 'Detail engineering of 10 jackets, Middle East'." }
+      - { name: scope, label: "Scope (one line)", widget: string }
+      - name: epc
+        label: EPC client
+        widget: object
+        fields:
+          - { name: name, label: Name, widget: string, required: false }
+          - { name: permission, label: "Written permission to name this client", widget: boolean, default: false }
+      - { name: anonEpc, label: "EPC name when not permitted", widget: string, default: "Offshore EPC contractor" }
+      - name: endUser
+        label: End user / operator
+        widget: object
+        fields:
+          - { name: name, label: Name, widget: string, required: false }
+          - { name: permission, label: "Written permission to name this end user", widget: boolean, default: false }
+      - { name: anonEndUser, label: "End user when not permitted", widget: string, default: "Offshore operator" }
+      - { name: clientType, label: Client type, widget: select, options: ["EPC", "End user"], default: "EPC" }
+      - { name: assets, label: Asset types, widget: select, multiple: true, required: false, options: [{label: "Wellhead platforms & jackets", value: wellhead-platforms-jackets}, {label: "Process platforms", value: process-platforms}, {label: "FPSO topsides", value: fpso-topsides}, {label: "Subsea pipelines", value: subsea-pipelines}, {label: "Brownfield", value: brownfield}, {label: "Offshore wind", value: offshore-wind}] }
+      - { name: services, label: Services, widget: select, multiple: true, options: [{label: "Pre-bid", value: pre-bid}, {label: "Concept / FEED", value: concept-feed}, {label: "Detail engineering", value: detail-engineering}, {label: "Installation engineering", value: installation-engineering}, {label: "Yard support", value: yard-support}, {label: "Procurement & expediting", value: procurement-expediting}, {label: "Verification", value: verification}, {label: "As-built & 3D", value: as-built-3d}, {label: "Weight control", value: weight-control}] }
+      - { name: disciplines, label: Disciplines, widget: select, multiple: true, required: false, options: [process, mechanical, piping, electrical, instrumentation-control, telecommunication, offshore-structural, pipelines, 3d-model-layout, project-controls] }
+      - { name: region, label: Region, widget: string, required: false, hint: "e.g. Middle East, Southeast Asia" }
+      - { name: country, label: Country, widget: string, required: false }
+      - { name: status, label: Status, widget: select, options: ["", "completed", "ongoing"], required: false }
+      - { name: year, label: Year, widget: string, required: false }
+      - { name: codes, label: Codes, widget: list, required: false, hint: "e.g. API RP 2A" }
+      - { name: software, label: Software, widget: list, required: false }
+      - name: facts
+        label: "Fact panel. Leave a value empty to hide the row."
+        widget: list
+        summary: "{{label}}: {{value}}"
+        fields:
+          - { name: label, widget: string, hint: "e.g. Water depth, Jacket tonnage, Engineering man-hours" }
+          - { name: value, widget: string, required: false }
+      - { name: challenge, label: "Challenge (2–3 sentences)", widget: text }
+      - { name: approach, label: "Engineering approach (bullets)", widget: list }
+      - name: quote
+        label: Client quote
+        widget: object
+        fields:
+          - { name: text, widget: text, required: false }
+          - { name: by, label: "Name, role, company", widget: string, required: false }
+          - { name: permission, label: "Written permission to publish", widget: boolean, default: false }
+      - name: images
+        label: Images (real VDE work only; no stock, no AI)
+        widget: list
+        required: false
+        fields:
+          - { name: src, label: Image, widget: image }
+          - { name: alt, label: "Alt text (what it shows)", widget: string }
+          - { name: caption, label: Caption, widget: string }
+      - { name: reviewNotes, label: "Internal review notes (preview only)", widget: list, required: false }
+
+  # ---------------------------------------------------------------- jobs
+  - name: jobs
+    label: Open positions
+    label_singular: Position
+    folder: content/jobs
+    extension: json
+    format: json
+    create: true
+    slug: "{{fields.code}}"
+    identifier_field: title
+    summary: "{{code}} · {{title}} · publish={{publish}}"
+    fields:
+      - { name: code, label: "Position code (from the HR requisition)", widget: string }
+      - { name: publish, label: Publish, widget: boolean, default: true }
+      - { name: example, label: "Example only (never published)", widget: hidden, default: false }
+      - { name: title, label: Job title, widget: string }
+      - { name: discipline, label: Discipline, widget: string }
+      - { name: experience, label: Experience, widget: string, required: false, hint: "e.g. 8–12 years offshore" }
+      - { name: location, label: Location, widget: string, default: "Bengaluru" }
+      - { name: employmentType, label: Employment type, widget: select, options: [FULL_TIME, CONTRACTOR, TEMPORARY, PART_TIME], default: FULL_TIME }
+      - { name: datePosted, label: Date posted, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { name: validThrough, label: "Closing date (job disappears after it)", widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD", required: false }
+      - { name: description, label: Description, widget: text }
+      - { name: responsibilities, label: What you will do, widget: list, required: false }
+      - { name: requirements, label: What you bring, widget: list, required: false }
+      - { name: source, label: "Source (e.g. approved advertisement and date)", widget: string, required: false }
+
+  # ---------------------------------------------------------------- news
+  - name: news
+    label: Insights / news
+    label_singular: Article
+    folder: content/news
+    extension: json
+    format: json
+    create: true
+    slug: "{{year}}-{{month}}-{{slug}}"
+    fields:
+      - { name: slug, label: "URL slug", widget: string, pattern: ['^[a-z0-9-]+$', 'lower case letters, numbers and dashes only'] }
+      - { name: publish, label: Publish, widget: boolean, default: false }
+      - { name: title, label: Title, widget: string }
+      - { name: date, label: Date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { name: summary, label: "Summary (≤ 155 characters)", widget: string }
+      - { name: body, label: Body, widget: markdown, buttons: [bold, italic, link, heading-two, heading-three, bulleted-list], editor_components: [] }
+
+  # ---------------------------------------------------------------- company settings
+  - name: settings
+    label: Company facts & documents
+    editor: { preview: false }
+    files:
+      - name: site
+        label: Company facts, contacts, certificates, clients
+        file: content/site.json
+        format: json
+        fields:
+          - { name: _note, widget: hidden }
+          - name: domain
+            label: Website domain
+            widget: object
+            fields:
+              - { name: value, widget: string }
+              - { name: confirmed, widget: boolean }
+          - { name: legalName, label: Legal name, widget: string }
+          - { name: shortName, widget: string }
+          - { name: groupName, widget: string }
+          - { name: formed, widget: number, value_type: int }
+          - { name: heritageSince, widget: number, value_type: int }
+          - { name: tagline, label: Hero headline, widget: string }
+          - { name: heroSub, label: Hero sub-line, widget: text }
+          - { name: brandPromise, widget: string }
+          - name: address
+            label: Office address
+            widget: object
+            fields:
+              - { name: street, widget: string, required: false }
+              - { name: locality, widget: string }
+              - { name: region, widget: string }
+              - { name: postcode, widget: string, required: false }
+              - { name: country, widget: string }
+              - { name: countryCode, widget: string }
+              - { name: confirmed, label: "Address complete and confirmed", widget: boolean }
+          - name: statutory
+            label: Statutory details (Prequalification page)
+            widget: object
+            fields:
+              - { name: cin, label: CIN, widget: string }
+              - { name: incorporated, label: Date of incorporation, widget: string }
+              - { name: pan, label: PAN, widget: string }
+              - { name: gstin, label: GSTIN, widget: string }
+          - { name: phone, widget: string, required: false }
+          - { name: linkedin, label: LinkedIn URL, widget: string, required: false }
+          - { name: mapUrl, label: Map link, widget: string, required: false }
+          - { name: officeHours, label: "Office hours (IST)", widget: string, required: false }
+          - { name: enquiryEmail, label: Public enquiry e-mail, widget: string, required: false }
+          - { name: careersEmail, widget: string }
+          - { name: emailDomain, widget: string }
+          - { name: groupUrl, widget: string }
+          - { name: onshoreUrl, widget: string }
+          - { name: onshoreName, widget: string }
+          - name: iso
+            label: ISO certificate
+            widget: object
+            fields:
+              - { name: standard, widget: string }
+              - { name: certificateNumber, widget: string, required: false }
+              - { name: certificationBody, widget: string, required: false }
+              - { name: validUntil, widget: string, required: false }
+              - { name: procedures, widget: list }
+          - name: team
+            widget: object
+            fields:
+              - { name: size, widget: string }
+              - { name: seniorShare, widget: string }
+              - { name: seniorDefinition, widget: string }
+              - { name: growthTarget, widget: string }
+              - { name: growthBy, widget: string }
+          - name: counters
+            label: Home page counters
+            widget: object
+            fields:
+              - { name: asOf, label: "As of (month year)", widget: string, required: false }
+              - name: items
+                widget: list
+                fields:
+                  - { name: value, widget: string }
+                  - { name: label, widget: string }
+                  - { name: note, widget: string, required: false }
+                  - { name: confirmed, label: "Confirmed for publication", widget: boolean }
+          - name: responseCommitment
+            widget: object
+            fields:
+              - { name: value, widget: string }
+              - { name: confirmed, widget: boolean }
+          - { name: calendarUrl, label: Booking calendar link, widget: string, required: false }
+          - { name: ndaTemplateUrl, label: Mutual NDA template link, widget: string, required: false }
+          - name: uploadRetentionDays
+            widget: object
+            fields:
+              - { name: value, widget: number, value_type: int }
+              - { name: confirmed, widget: boolean }
+          - name: grievanceOfficer
+            label: Grievance officer (DPDP Act)
+            widget: object
+            fields:
+              - { name: name, widget: string, required: false }
+              - { name: email, widget: string, required: false }
+          - name: markets
+            widget: object
+            fields:
+              - { name: confirmed, widget: boolean }
+              - { name: items, widget: list }
+          - name: codes
+            label: Design codes
+            widget: object
+            fields:
+              - { name: confirmed, widget: boolean }
+              - { name: items, widget: list }
+          - name: clients
+            label: Client names and logos
+            widget: list
+            summary: "{{name}} · permission={{permission}}"
+            fields:
+              - { name: name, widget: string }
+              - { name: short, widget: string }
+              - { name: type, widget: select, options: ["EPC", "End user"] }
+              - { name: permission, label: "Written permission to show name / logo", widget: boolean, default: false }
+              - { name: logo, widget: image, required: false }
+          - name: certificates
+            label: Certificates (expired ones hide automatically)
+            widget: list
+            fields:
+              - { name: name, widget: string }
+              - { name: issuer, widget: string, required: false }
+              - { name: number, widget: string, required: false }
+              - { name: expiry, label: "Expiry (YYYY-MM-DD)", widget: string, required: false }
+              - { name: file, widget: file, required: false }
+          - name: prequalPack
+            label: Prequalification pack contents (the pack itself is e-mailed by BD, never uploaded)
+            widget: object
+            fields:
+              - name: items
+                widget: list
+                fields:
+                  - { name: name, widget: string }
+                  - { name: onRequest, label: "Shared on request only", widget: boolean, required: false }
+          - { name: vendorRegistrations, label: Vendor registrations held, widget: list, required: false }
+          - name: heritage
+            label: Heritage timeline
+            widget: list
+            fields:
+              - { name: year, widget: string }
+              - { name: text, widget: string }
+          - name: officePhoto
+            label: Office photo (About and Careers pages)
+            widget: object
+            fields:
+              - { name: src, label: Photo, widget: image }
+              - { name: alt, label: "Alt text (what it shows)", widget: string }
+              - { name: caption, widget: string }
+              - { name: width, widget: number, value_type: int }
+              - { name: height, widget: number, value_type: int }
+              - { name: consent, label: "Consent from the people shown", widget: boolean, default: false }
+          - name: analytics
+            widget: object
+            fields:
+              - { name: provider, widget: select, options: [plausible, ga4] }
+              - { name: domain, label: "Plausible domain or GA4 measurement ID", widget: string, required: false }
+              - { name: src, label: "Script URL (optional)", widget: string, required: false }
+          - { name: turnstileSiteKey, label: Cloudflare Turnstile site key, widget: string, required: false }
+          - { name: formEndpoint, widget: hidden }
+      - name: people
+        label: Leadership and BD contacts
+        file: content/people.json
+        format: json
+        fields:
+          - name: items
+            label: People
+            widget: list
+            summary: "{{name}} · consent={{consent}}"
+            fields:
+              - { name: name, widget: string }
+              - { name: role, widget: string }
+              - { name: email, widget: string }
+              - { name: bd, label: "Business development contact", widget: boolean }
+              - { name: leadership, label: "Show on leadership page", widget: boolean }
+              - { name: consent, label: "Consent to publish", widget: boolean, default: false }
+              - { name: photo, widget: image, required: false }
+              - { name: yearsOffshore, widget: string, required: false }

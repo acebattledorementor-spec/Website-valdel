@@ -1,0 +1,77 @@
+{
+  "slug": "ruya-expediting-weight-control",
+  "publish": true,
+  "featured": false,
+  "order": 3,
+  "title": "Ruya, North Oil Company: expediting and topside weight control",
+  "anonTitle": "Enhanced expediting and topside weight control, Qatar",
+  "scope": "Enhanced expediting, shop visits and topside weight control.",
+  "epc": {
+    "name": "HHI",
+    "permission": true
+  },
+  "anonEpc": "Offshore EPC contractor",
+  "endUser": {
+    "name": "North Oil Company",
+    "permission": true
+  },
+  "anonEndUser": "Offshore operator, Qatar",
+  "clientType": "EPC",
+  "assets": [
+    "process-platforms"
+  ],
+  "services": [
+    "procurement-expediting",
+    "weight-control"
+  ],
+  "disciplines": [
+    "mechanical",
+    "offshore-structural"
+  ],
+  "region": "Middle East",
+  "country": "Qatar",
+  "status": "",
+  "year": "",
+  "codes": [],
+  "software": [],
+  "facts": [
+    {
+      "label": "Water depth",
+      "value": ""
+    },
+    {
+      "label": "Duration",
+      "value": ""
+    },
+    {
+      "label": "Packages expedited",
+      "value": ""
+    },
+    {
+      "label": "Shop visits",
+      "value": ""
+    },
+    {
+      "label": "Topside weight",
+      "value": ""
+    }
+  ],
+  "challenge": "The EPC contractor needed equipment packages followed up at vendor shops, and a topside weight report it could rely on while vendor data kept changing.",
+  "approach": [
+    "Enhanced expediting with shop visits to vendor works.",
+    "Expediting reports to the contractor's format.",
+    "Topside weight control: vendor weights fed into the weight report as they were received.",
+    "Weight changes traced to their source."
+  ],
+  "quote": {
+    "text": "",
+    "by": "",
+    "permission": false
+  },
+  "images": [],
+  "reviewNotes": [
+    "Asset type set to 'Process platforms' as an assumption: confirm the platform type.",
+    "Narrative drafted from the one-line scope: confirm with the project lead.",
+    "Confirm status and year."
+  ]
+}

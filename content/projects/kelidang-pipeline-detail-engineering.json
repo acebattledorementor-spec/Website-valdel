@@ -1,0 +1,70 @@
+{
+  "slug": "kelidang-pipeline-detail-engineering",
+  "publish": true,
+  "featured": false,
+  "order": 6,
+  "title": "Kelidang Cluster Development: pipeline detailed engineering",
+  "anonTitle": "Subsea pipeline detailed engineering for a cluster development",
+  "scope": "Pipeline detailed engineering (ongoing).",
+  "epc": {
+    "name": "McDermott",
+    "permission": true
+  },
+  "anonEpc": "Offshore EPC contractor",
+  "endUser": {
+    "name": "",
+    "permission": false
+  },
+  "anonEndUser": "Offshore operator",
+  "clientType": "EPC",
+  "assets": [
+    "subsea-pipelines"
+  ],
+  "services": [
+    "detail-engineering"
+  ],
+  "disciplines": [
+    "pipelines"
+  ],
+  "region": "",
+  "country": "",
+  "status": "ongoing",
+  "year": "",
+  "codes": [],
+  "software": [],
+  "facts": [
+    {
+      "label": "Pipeline length",
+      "value": ""
+    },
+    {
+      "label": "Diameter",
+      "value": ""
+    },
+    {
+      "label": "Water depth",
+      "value": ""
+    },
+    {
+      "label": "Duration",
+      "value": ""
+    }
+  ],
+  "challenge": "The EPC contractor needs detailed engineering for the pipelines of a cluster development, issued to its execution schedule.",
+  "approach": [
+    "Pipeline detailed design to the project design basis.",
+    "Every analysis checked by an engineer other than the preparer.",
+    "Progress measured against the agreed deliverables list."
+  ],
+  "quote": {
+    "text": "",
+    "by": "",
+    "permission": false
+  },
+  "images": [],
+  "reviewNotes": [
+    "Ongoing project: publish only with client permission.",
+    "Add region / country and end user.",
+    "Confirm analyses (on-bottom stability, spans, CP), codes and software."
+  ]
+}

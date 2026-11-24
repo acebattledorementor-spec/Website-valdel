@@ -1,0 +1,75 @@
+{
+  "slug": "wh-cpp-feed-verification",
+  "publish": true,
+  "featured": false,
+  "order": 5,
+  "title": "WH-CPP FEED, Prima Energy: FEED verification",
+  "anonTitle": "FEED verification of a wellhead / central processing platform",
+  "scope": "FEED verification of a wellhead / central processing platform.",
+  "epc": {
+    "name": "McDermott",
+    "permission": true
+  },
+  "anonEpc": "Offshore EPC contractor",
+  "endUser": {
+    "name": "Prima Energy",
+    "permission": false
+  },
+  "anonEndUser": "Offshore operator",
+  "clientType": "EPC",
+  "assets": [
+    "wellhead-platforms-jackets",
+    "process-platforms"
+  ],
+  "services": [
+    "verification",
+    "concept-feed"
+  ],
+  "disciplines": [
+    "process",
+    "offshore-structural",
+    "piping"
+  ],
+  "region": "",
+  "country": "",
+  "status": "",
+  "year": "",
+  "codes": [],
+  "software": [],
+  "facts": [
+    {
+      "label": "Water depth",
+      "value": ""
+    },
+    {
+      "label": "Duration",
+      "value": ""
+    },
+    {
+      "label": "Documents reviewed",
+      "value": ""
+    },
+    {
+      "label": "Comments raised",
+      "value": ""
+    }
+  ],
+  "challenge": "The EPC contractor received a FEED for a combined wellhead and central processing platform and needed an independent check before relying on it for execution.",
+  "approach": [
+    "Review scope and acceptance criteria agreed with the contractor.",
+    "Discipline review of the FEED documents by senior engineers not involved in the original design.",
+    "Independent check calculations where the review called for them.",
+    "Comments register classified by severity and closed out with the contractor."
+  ],
+  "quote": {
+    "text": "",
+    "by": "",
+    "permission": false
+  },
+  "images": [],
+  "reviewNotes": [
+    "Add region / country.",
+    "Narrative drafted from the one-line scope: confirm with the project lead.",
+    "Confirm disciplines involved, status and year."
+  ]
+}

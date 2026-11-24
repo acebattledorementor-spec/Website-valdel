@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "name": "Ravikumar G",
+      "role": "Director Operations",
+      "email": "ravikumar.g@valdelec.com",
+      "bd": true,
+      "leadership": true,
+      "consent": true,
+      "photo": "",
+      "yearsOffshore": ""
+    },
+    {
+      "name": "Keshava Siddappa",
+      "role": "Projects & Business Development",
+      "email": "s.keshava@valdelec.com",
+      "bd": true,
+      "leadership": true,
+      "consent": true,
+      "photo": "",
+      "yearsOffshore": ""
+    },
+    {
+      "name": "Sai Kumar Buddha",
+      "role": "Projects & Business Development",
+      "email": "saikumar.b@valdelec.com",
+      "bd": true,
+      "leadership": true,
+      "consent": true,
+      "photo": "",
+      "yearsOffshore": ""
+    }
+  ]
+}

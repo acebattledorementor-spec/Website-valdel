@@ -1,0 +1,210 @@
+{
+  "items": [
+    {
+      "slug": "process",
+      "name": "Process",
+      "icon": "d-process",
+      "scope": "Simulation, heat and material balances, PFDs, P&IDs and safety studies.",
+      "tools": [
+        "HYSYS",
+        "HTRI",
+        "PIPESIM",
+        "PIPENET"
+      ],
+      "deliverables": [
+        "Process simulation reports",
+        "Heat and material balances",
+        "Process flow diagrams (PFDs)",
+        "Piping and instrumentation diagrams (P&IDs)",
+        "Line and equipment sizing",
+        "Relief, flare and firewater calculations",
+        "Input to safety studies"
+      ],
+      "seoTitle": "Offshore process engineering: HYSYS, P&IDs | VDE",
+      "seoDescription": "Offshore process engineering: HYSYS simulation, heat and material balances, PFDs, P&IDs, hydraulics and safety study input."
+    },
+    {
+      "slug": "mechanical",
+      "name": "Mechanical",
+      "icon": "d-mechanical",
+      "scope": "Equipment datasheets, material handling and vendor document review.",
+      "tools": [
+        "HTRI",
+        "PV Elite"
+      ],
+      "deliverables": [
+        "Equipment datasheets and specifications",
+        "Pressure vessel and heat exchanger design checks",
+        "Material handling studies",
+        "Technical bid evaluations",
+        "Vendor document review"
+      ],
+      "seoTitle": "Offshore mechanical engineering: equipment, PV Elite | VDE",
+      "seoDescription": "Offshore mechanical engineering: equipment datasheets, PV Elite and HTRI checks, material handling studies and vendor document review."
+    },
+    {
+      "slug": "piping",
+      "name": "Piping",
+      "icon": "d-piping",
+      "scope": "Layouts, material specifications, MTOs, stress analysis and isometrics.",
+      "tools": [
+        "CAESAR II",
+        "AutoPIPE"
+      ],
+      "deliverables": [
+        "Piping layouts and general arrangements",
+        "Piping material specifications",
+        "Pipe stress analysis reports",
+        "Isometrics",
+        "Material take-offs (MTOs)",
+        "Pipe support design"
+      ],
+      "seoTitle": "Offshore piping design & stress analysis: CAESAR II | VDE",
+      "seoDescription": "Offshore piping engineering: layouts, material specifications, MTOs, CAESAR II and AutoPIPE stress analysis and isometrics."
+    },
+    {
+      "slug": "electrical",
+      "name": "Electrical",
+      "icon": "d-electrical",
+      "scope": "Load lists, single-line diagrams, power system studies and hazardous area classification.",
+      "tools": [
+        "ETAP",
+        "DIALux"
+      ],
+      "deliverables": [
+        "Electrical load lists",
+        "Single-line diagrams (SLDs)",
+        "Power system studies",
+        "Lighting design",
+        "Hazardous area classification drawings",
+        "Cable sizing and cable schedules"
+      ],
+      "seoTitle": "Offshore electrical engineering: ETAP studies | VDE",
+      "seoDescription": "Offshore electrical engineering: load lists, single-line diagrams, ETAP power system studies, DIALux lighting and hazardous area classification."
+    },
+    {
+      "slug": "instrumentation-control",
+      "name": "Instrumentation & control",
+      "icon": "d-instrument",
+      "scope": "Field instruments, SIS, DCS architecture and I/O lists.",
+      "tools": [
+        "InstruCAL",
+        "SPI",
+        "SPPID"
+      ],
+      "deliverables": [
+        "Instrument index and datasheets",
+        "Instrument sizing calculations",
+        "SIS and DCS architecture",
+        "I/O lists",
+        "Cause and effect diagrams",
+        "Hook-up and loop drawings"
+      ],
+      "seoTitle": "Offshore instrumentation & control engineering | VDE",
+      "seoDescription": "Offshore instrumentation and control: field instruments, SIS and DCS architecture, I/O lists and SPI / SPPID databases."
+    },
+    {
+      "slug": "telecommunication",
+      "name": "Telecommunication",
+      "icon": "d-telecom",
+      "scope": "Communication philosophy, telecom and network architecture.",
+      "tools": [
+        "Specifications & datasheets"
+      ],
+      "deliverables": [
+        "Telecommunication philosophy",
+        "Telecom system architecture",
+        "Network architecture",
+        "Specifications and datasheets",
+        "Telecom layouts"
+      ],
+      "seoTitle": "Offshore telecommunication engineering | VDE",
+      "seoDescription": "Offshore telecommunication engineering: communication philosophy, telecom and network architecture, specifications and datasheets."
+    },
+    {
+      "slug": "offshore-structural",
+      "name": "Offshore structural",
+      "icon": "d-structural",
+      "scope": "In-place, fatigue, seismic, load-out, lift and float-over analyses.",
+      "tools": [
+        "SACS",
+        "STAAD.Pro",
+        "Tekla",
+        "GRLWEAP"
+      ],
+      "deliverables": [
+        "In-place analysis reports",
+        "Fatigue and seismic analysis reports",
+        "Load-out, transportation, lift and float-over analyses",
+        "Pile design and drivability studies",
+        "Topside and helideck structural design",
+        "Structural drawings and Tekla models",
+        "Structural MTOs and weight reports"
+      ],
+      "seoTitle": "SACS in-place, fatigue & installation analysis | VDE",
+      "seoDescription": "Offshore structural engineering: SACS in-place, fatigue and seismic analysis, load-out, lift and float-over, pile drivability with GRLWEAP."
+    },
+    {
+      "slug": "pipelines",
+      "name": "Pipelines",
+      "icon": "d-pipeline",
+      "scope": "On-bottom stability, free spans, risers, spools and cathodic protection design.",
+      "tools": [
+        "OrcaFlex",
+        "OFFPIPE",
+        "DNV StableLines"
+      ],
+      "deliverables": [
+        "Wall thickness calculations",
+        "On-bottom stability analysis",
+        "Free span assessment",
+        "Riser and spool design",
+        "Cathodic protection design",
+        "Installation analyses",
+        "Alignment sheets"
+      ],
+      "seoTitle": "Subsea pipeline on-bottom stability design | VDE",
+      "seoDescription": "Subsea pipeline engineering: on-bottom stability, free spans, risers, spools and cathodic protection with OrcaFlex, OFFPIPE and DNV StableLines."
+    },
+    {
+      "slug": "3d-model-layout",
+      "name": "3D model & layout",
+      "icon": "d-model",
+      "scope": "Structural, piping, equipment, E&I and HVAC 3D models and layouts.",
+      "tools": [
+        "AVEVA E3D / PDMS",
+        "S3D (SP3D)",
+        "AutoCAD",
+        "MicroStation"
+      ],
+      "deliverables": [
+        "Multi-discipline 3D models",
+        "Plot plans and equipment layouts",
+        "General arrangement drawings",
+        "Model review packages",
+        "Clash reports",
+        "As-built 3D models"
+      ],
+      "seoTitle": "Offshore 3D modelling: AVEVA E3D, S3D | VDE",
+      "seoDescription": "Offshore 3D modelling and layout in AVEVA E3D / PDMS, S3D, AutoCAD and MicroStation: structural, piping, equipment, E&I and HVAC."
+    },
+    {
+      "slug": "project-controls",
+      "name": "Project management & document control",
+      "icon": "d-controls",
+      "scope": "Planning, progress measurement, change control and transmittals.",
+      "tools": [
+        "Primavera"
+      ],
+      "deliverables": [
+        "Project execution plan",
+        "Engineering schedule",
+        "Deliverables list and progress reports",
+        "Change notes and change register",
+        "Transmittals and document registers"
+      ],
+      "seoTitle": "Engineering project controls & document control | VDE",
+      "seoDescription": "Project management and document control for offshore engineering: Primavera planning, progress from the deliverables list, change control and transmittals."
+    }
+  ]
+}

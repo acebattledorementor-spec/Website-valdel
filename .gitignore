@@ -1,0 +1,8 @@
+dist/
+preview/
+build-cache/
+.local-data/
+node_modules/
+.wrangler/
+.dev.vars
+*.log

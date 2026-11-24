@@ -1,0 +1,283 @@
+{
+  "items": [
+    {
+      "slug": "pre-bid",
+      "name": "Pre-bid engineering",
+      "short": "Pre-bid",
+      "icon": "prebid",
+      "flagship": true,
+      "line": "Engineering for a contractor's tender: concept, configuration, weight estimate, MTOs and material requisitions, delivered inside the bid window.",
+      "trigger": "Your tender is due in three weeks and your own engineers are committed to live projects. You need a defendable configuration, weight and MTO to price the bid.",
+      "deliverables": [
+        "Concept and configuration of jackets, topsides or pipelines",
+        "Preliminary structural sizing and key analyses",
+        "Weight estimate with stated contingency",
+        "Material take-offs (MTOs) for pricing",
+        "Material requisitions (MRs) for long-lead items",
+        "Technical clarifications and deviations list",
+        "Engineering man-hour and deliverables estimate for the execution phase"
+      ],
+      "turnaround": "",
+      "howWeRun": [
+        "Kick-off within the first days of receiving the tender package, with a named lead engineer.",
+        "A senior offshore engineer sets the basis of design and the assumptions register on day one.",
+        "Disciplines work to a dated plan built back from your bid due date.",
+        "Every calculation and MTO is checked by an engineer other than its preparer.",
+        "Hand-over package with the assumptions, weights and MTOs your estimators need."
+      ],
+      "assets": [
+        "wellhead-platforms-jackets",
+        "process-platforms",
+        "subsea-pipelines",
+        "offshore-wind"
+      ],
+      "seoTitle": "Pre-bid engineering support for EPC tenders | VDE",
+      "seoDescription": "Pre-bid engineering for offshore EPC tenders: concept, configuration, weight estimate, MTOs and MRs delivered inside the bid window."
+    },
+    {
+      "slug": "concept-feed",
+      "name": "Concept, feasibility & FEED",
+      "short": "Concept / FEED",
+      "icon": "feed",
+      "line": "Concepts, feasibility studies, pre-FEED and FEED for platforms, topsides and pipelines.",
+      "trigger": "You need to fix the concept, the main dimensions and the cost basis before detail engineering, or to check a FEED someone else produced.",
+      "deliverables": [
+        "Concept options and selection reports",
+        "Feasibility studies and pre-FEED",
+        "Basis of design and design philosophies",
+        "FEED drawings, datasheets and specifications",
+        "FEED-level structural and pipeline analyses",
+        "Weight and MTO estimates",
+        "Cost and schedule input"
+      ],
+      "turnaround": "",
+      "howWeRun": [
+        "Basis of design agreed with you before any analysis is run.",
+        "Concept options compared on stated criteria: weight, cost drivers, schedule and risk.",
+        "Inter-discipline check before every FEED package is issued.",
+        "FEED deliverables structured so they carry straight into detail engineering."
+      ],
+      "assets": [
+        "wellhead-platforms-jackets",
+        "process-platforms",
+        "fpso-topsides",
+        "subsea-pipelines",
+        "offshore-wind"
+      ],
+      "seoTitle": "Offshore concept, feasibility & FEED engineering | VDE",
+      "seoDescription": "Concept selection, feasibility, pre-FEED and FEED for offshore platforms, topsides and subsea pipelines. Multi-discipline team in Bengaluru."
+    },
+    {
+      "slug": "detail-engineering",
+      "name": "Detail engineering",
+      "short": "Detail",
+      "icon": "detail",
+      "line": "Multi-discipline detail engineering to issued-for-construction (IFC) status.",
+      "trigger": "The contract is awarded and the yard needs IFC drawings on a fixed schedule. You need engineers who can start from your FEED and deliver to your document numbering and templates.",
+      "deliverables": [
+        "Design reports and calculations for every discipline",
+        "IFC drawings and isometrics",
+        "Datasheets and specifications",
+        "Multi-discipline 3D model and model reviews",
+        "MTOs and material requisitions",
+        "Vendor document review"
+      ],
+      "turnaround": "",
+      "howWeRun": [
+        "Deliverables list agreed at kick-off; progress is measured against it every week.",
+        "Every deliverable is checked by an engineer other than its preparer.",
+        "Inter-discipline check (IDC) before issue to the client.",
+        "Transmittals and revision control under our ISO 9001:2015 QMS.",
+        "Change notes validated within 2 working days."
+      ],
+      "assets": [
+        "wellhead-platforms-jackets",
+        "process-platforms",
+        "fpso-topsides",
+        "subsea-pipelines",
+        "brownfield",
+        "offshore-wind"
+      ],
+      "seoTitle": "Offshore detail engineering to IFC | VDE",
+      "seoDescription": "Multi-discipline offshore detail engineering to IFC for jackets, topsides, FPSO modules and subsea pipelines. QMS-controlled delivery."
+    },
+    {
+      "slug": "installation-engineering",
+      "name": "Installation engineering",
+      "short": "Installation",
+      "icon": "installation",
+      "line": "Load-out, transportation, lift and installation engineering for jackets, topsides and modules.",
+      "trigger": "The structure is designed and fabrication has started. You need the load-out, sea-fastening, transportation and lift cases engineered and approved before sail-away.",
+      "deliverables": [
+        "Load-out analyses",
+        "Transportation and sea-fastening analyses",
+        "Lift analyses and rigging design",
+        "Float-over analyses",
+        "Pile drivability and installation analyses",
+        "Installation drawings and procedures input"
+      ],
+      "turnaround": "",
+      "howWeRun": [
+        "Installation cases defined with your marine and installation team at kick-off.",
+        "SACS models built from the in-place model, so geometry and weights stay consistent.",
+        "Independent check of every installation analysis before issue."
+      ],
+      "assets": [
+        "wellhead-platforms-jackets",
+        "process-platforms",
+        "fpso-topsides",
+        "subsea-pipelines",
+        "offshore-wind"
+      ],
+      "seoTitle": "Offshore installation engineering: load-out, lift | VDE",
+      "seoDescription": "Load-out, transportation, lift, float-over and pile installation engineering for offshore jackets, topsides and modules."
+    },
+    {
+      "slug": "yard-support",
+      "name": "Fabrication & yard support engineering",
+      "short": "Yard support",
+      "icon": "yard",
+      "line": "Engineering support to the fabrication yard: queries, shop drawings, changes and as-fabricated records.",
+      "trigger": "Fabrication is under way and the yard is raising technical queries faster than the design team can answer them.",
+      "deliverables": [
+        "Technical query (TQ) responses",
+        "Shop and fabrication drawing review",
+        "Engineering for site changes and non-conformances",
+        "As-fabricated mark-ups",
+        "Weight updates from fabrication"
+      ],
+      "turnaround": "",
+      "howWeRun": [
+        "A named engineer per discipline answers yard queries.",
+        "Queries tracked in a log with response dates.",
+        "Changes go through the same check and approval route as the design."
+      ],
+      "assets": [
+        "wellhead-platforms-jackets",
+        "process-platforms",
+        "fpso-topsides",
+        "offshore-wind"
+      ],
+      "seoTitle": "Offshore fabrication & yard support engineering | VDE",
+      "seoDescription": "Engineering support for offshore fabrication yards: technical queries, shop drawing review, site changes and as-fabricated records."
+    },
+    {
+      "slug": "procurement-expediting",
+      "name": "Procurement assistance & expediting",
+      "short": "Procurement & expediting",
+      "icon": "procurement",
+      "line": "RFQs, TQs, TBEs, MRs, POs, vendor document review and desktop, shop and enhanced expediting.",
+      "trigger": "Equipment packages are on the critical path. You need requisitions issued, bids evaluated and vendors followed up until delivery.",
+      "deliverables": [
+        "Material requisitions (MRs) and requests for quotation (RFQs)",
+        "Technical queries (TQs) and technical bid evaluations (TBEs)",
+        "Purchase order technical input",
+        "Vendor document review",
+        "Desktop expediting reports",
+        "Shop visits and enhanced expediting reports"
+      ],
+      "turnaround": "",
+      "howWeRun": [
+        "One register for every package: status, next action and owner.",
+        "Discipline engineers review vendor documents against the requisition.",
+        "Expediting reports to an agreed weekly format, with shop visits where needed."
+      ],
+      "assets": [
+        "wellhead-platforms-jackets",
+        "process-platforms",
+        "fpso-topsides",
+        "subsea-pipelines"
+      ],
+      "seoTitle": "Offshore procurement assistance & expediting | VDE",
+      "seoDescription": "Procurement engineering and expediting for offshore projects: MRs, RFQs, TBEs, vendor document review, desktop, shop and enhanced expediting."
+    },
+    {
+      "slug": "verification",
+      "name": "Independent review & design verification",
+      "short": "Verification",
+      "icon": "verification",
+      "line": "An independent check of another party's design, FEED or calculations.",
+      "trigger": "You have received a FEED or a design package from another party and need an independent view before you commit to it.",
+      "deliverables": [
+        "Design review comments register",
+        "Independent check calculations and analyses",
+        "FEED verification reports",
+        "Gap lists and recommendations"
+      ],
+      "turnaround": "",
+      "howWeRun": [
+        "Review scope and acceptance criteria agreed before the review starts.",
+        "Reviewers are senior engineers who were not involved in the original design.",
+        "Comments are classified by severity and closed out with the originator."
+      ],
+      "assets": [
+        "wellhead-platforms-jackets",
+        "process-platforms",
+        "fpso-topsides",
+        "subsea-pipelines",
+        "brownfield",
+        "offshore-wind"
+      ],
+      "seoTitle": "Independent offshore design review & verification | VDE",
+      "seoDescription": "Independent design review and FEED verification for offshore platforms, topsides and pipelines, by senior engineers."
+    },
+    {
+      "slug": "as-built-3d",
+      "name": "As-built drawings & 3D models",
+      "short": "As-built & 3D",
+      "icon": "asbuilt",
+      "line": "As-built drawings and 3D models that match the asset as installed.",
+      "trigger": "The project is closing out and the operator needs as-built drawings and a 3D model that match what was installed.",
+      "deliverables": [
+        "As-built drawings from red-line mark-ups",
+        "As-built 3D models in E3D / PDMS, S3D, AutoCAD or MicroStation",
+        "Updated registers and document indexes",
+        "Hand-over packages to the operator's format"
+      ],
+      "turnaround": "",
+      "howWeRun": [
+        "Mark-up register set up at kick-off, so every red-line is traced to its drawing.",
+        "Drawing and model updated together, so they agree.",
+        "Each as-built drawing checked against its mark-ups before issue."
+      ],
+      "assets": [
+        "wellhead-platforms-jackets",
+        "process-platforms",
+        "fpso-topsides",
+        "subsea-pipelines",
+        "brownfield"
+      ],
+      "seoTitle": "Offshore as-built drawings & 3D models | VDE",
+      "seoDescription": "As-built drawings and 3D models for offshore platforms and pipelines in E3D / PDMS, S3D, AutoCAD and MicroStation."
+    },
+    {
+      "slug": "weight-control",
+      "name": "Weight control",
+      "short": "Weight control",
+      "icon": "weight",
+      "line": "Weight estimating, reporting and control for topsides, jackets and modules.",
+      "trigger": "The structure is lift- or hull-critical, and you need a weight report you can trust at every stage of the project.",
+      "deliverables": [
+        "Weight control procedure",
+        "Weight estimates and weight reports by discipline",
+        "Centre-of-gravity envelopes",
+        "Weight trend reports",
+        "Weighing support and reconciliation"
+      ],
+      "turnaround": "",
+      "howWeRun": [
+        "Weight database built from the 3D model and the discipline MTOs.",
+        "Weight reports issued at agreed intervals, with trends against the limits.",
+        "Changes in weight traced to their source."
+      ],
+      "assets": [
+        "wellhead-platforms-jackets",
+        "process-platforms",
+        "fpso-topsides",
+        "offshore-wind"
+      ],
+      "seoTitle": "Offshore weight control services | VDE",
+      "seoDescription": "Weight estimating, reporting and control for offshore topsides, jackets and FPSO modules, from concept to as-built."
+    }
+  ]
+}

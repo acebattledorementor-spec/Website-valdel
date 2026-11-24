@@ -1,0 +1,19 @@
+# Cloudflare Pages project configuration. Secrets are NOT stored here:
+# set them with `wrangler pages secret put NAME` or in the dashboard (see docs/launch-checklist.md).
+name = "vde-offshore-website"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-11-01"
+
+[[r2_buckets]]
+binding = "LEADS"               # private bucket: leads/, uploads/ (90-day lifecycle rule)
+bucket_name = "vde-website-leads"
+
+[[kv_namespaces]]
+binding = "RATE"                # form rate limiting
+id = "REPLACE_WITH_KV_NAMESPACE_ID"
+
+[vars]
+SITE_ORIGIN = "https://offshore.valdel.com"       # [CONFIRM] domain
+MAIL_FROM = "VDE website <website@valdelec.com>"  # [CONFIRM] sender verified with the e-mail provider
+ACCESS_TEAM_DOMAIN = "REPLACE.cloudflareaccess.com"
+# Secrets: TURNSTILE_SECRET, MAIL_API_KEY, BD_INBOX, HR_INBOX, ACCESS_AUD, NDA_TEMPLATE_URL, SCAN_URL, SCAN_KEY

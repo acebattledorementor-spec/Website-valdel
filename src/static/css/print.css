@@ -1,0 +1,40 @@
+/* A4 print documents: capability statement (2 pages) and discipline datasheets (1 page). */
+@font-face{font-family:"Public Sans";font-weight:300 800;src:url(/fonts/public-sans.woff2) format("woff2")}
+@font-face{font-family:"Barlow Condensed";font-weight:600;src:url(/fonts/barlow-condensed-600.woff2) format("woff2")}
+@font-face{font-family:"Barlow Condensed";font-weight:700;src:url(/fonts/barlow-condensed-700.woff2) format("woff2")}
+@font-face{font-family:"JetBrains Mono";font-weight:400 600;src:url(/fonts/jetbrains-mono.woff2) format("woff2")}
+@page{size:A4;margin:0}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#E6E8EE}
+body{font-family:"Public Sans",Arial,sans-serif;font-size:9.2pt;line-height:1.45;color:#191C26;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:210mm;height:297mm;padding:12mm 14mm 20mm;margin:8mm auto;background:#fff;position:relative;overflow:hidden;page-break-after:always;break-after:page}
+.page:last-child{page-break-after:auto;break-after:auto}
+@media print{html,body{background:#fff}.page{margin:0}}
+.doc-head{display:flex;justify-content:space-between;align-items:center;border-bottom:2.5px solid #002060;padding-bottom:4mm;margin-bottom:6mm;color:#002060}
+.doc-head svg{height:11mm;width:auto}
+.doc-sub{font-family:"Barlow Condensed",sans-serif;font-weight:600;font-size:11pt;letter-spacing:.12em;text-transform:uppercase;color:#5F6473}
+h1,h2{font-family:"Barlow Condensed",sans-serif;color:#002060;line-height:1.08;margin:0}
+h1{font-size:25pt;font-weight:700;margin-bottom:3mm;max-width:150mm}
+h2{font-size:12pt;font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin:4mm 0 1.5mm;padding-top:1.5mm;border-top:1px solid #D5D8E0}
+.lead{font-size:10.5pt;color:#5F6473;margin:0 0 5mm;max-width:165mm}
+.eyebrow{font-family:"Barlow Condensed",sans-serif;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#5F6473;margin:0 0 1mm}
+p{margin:0 0 2mm}
+ul{margin:0;padding-left:4mm}
+li{margin-bottom:1mm}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:7mm}
+.kpis{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;border:1px solid #D5D8E0;margin:2mm 0 2mm}
+.kpis div{padding:3mm 4mm;border-left:1px solid #D5D8E0}
+.kpis div:first-child{border-left:0}
+.kpis b{display:block;font-family:"Barlow Condensed",sans-serif;font-size:22pt;line-height:1;color:#002060}
+.kpis span{font-size:8pt;color:#5F6473}
+.dl{list-style:none;padding:0}
+.dl li{border-bottom:1px solid #E6E8EE;padding:.7mm 0;font-size:8.3pt;line-height:1.35}
+.dl b{display:block;color:#002060}
+table{border-collapse:collapse;width:100%;font-size:8.2pt}
+th,td{text-align:left;padding:1mm 2mm;border-bottom:1px solid #E6E8EE;vertical-align:top}
+th{font-family:"Barlow Condensed",sans-serif;font-weight:600;font-size:9.5pt;letter-spacing:.06em;text-transform:uppercase;color:#002060;border-bottom:1.5px solid #002060;background:#F2F3F7}
+.mono{font-family:"JetBrains Mono",monospace;font-size:7.8pt}
+.small{font-size:7.8pt}
+.cta{margin-top:5mm;background:#E30613;color:#fff;font-family:"Barlow Condensed",sans-serif;font-weight:600;font-size:12pt;letter-spacing:.04em;text-transform:uppercase;padding:3mm 4mm;display:inline-block}
+.doc-foot{position:absolute;left:14mm;right:14mm;bottom:8mm;display:flex;justify-content:space-between;gap:4mm;border-top:1px solid #D5D8E0;padding-top:2mm;font-family:"JetBrains Mono",monospace;font-size:7pt;color:#5F6473;white-space:nowrap}
+.ph{background:#FFF3BF;color:#4D3A00;border:1px dashed #B58900;font-family:"JetBrains Mono",monospace;font-size:7pt;padding:0 1mm}

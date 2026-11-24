@@ -1,0 +1,18 @@
+{
+  "name": "vde-offshore-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Valdel Design Engineering offshore website - static build, no runtime dependencies",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node src/build.mjs",
+    "build:preview": "node src/build.mjs --preview",
+    "build:all": "node src/build.mjs --preview && node src/build.mjs",
+    "serve": "node tools/serve.mjs dist 8080",
+    "serve:preview": "node tools/serve.mjs preview 8081",
+    "pdf": "node tools/make-pdfs.mjs",
+    "test": "node tools/test-lead-export.mjs",
+    "leads:pull": "node tools/pull-leads.mjs"
+  }
+}

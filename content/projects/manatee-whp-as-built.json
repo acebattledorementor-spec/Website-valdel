@@ -1,0 +1,61 @@
+{
+  "slug": "manatee-whp-as-built",
+  "publish": false,
+  "featured": false,
+  "order": 8,
+  "title": "Shell Manatee WHP: as-built drawings and 3D model",
+  "anonTitle": "As-built drawings and 3D model of a wellhead platform, Caribbean",
+  "scope": "As-built drawings and 3D model",
+  "epc": {
+    "name": "McDermott",
+    "permission": true
+  },
+  "anonEpc": "Offshore EPC contractor",
+  "endUser": {
+    "name": "Shell",
+    "permission": false
+  },
+  "anonEndUser": "International operator",
+  "clientType": "EPC",
+  "assets": [
+    "wellhead-platforms-jackets"
+  ],
+  "services": [
+    "as-built-3d"
+  ],
+  "disciplines": [
+    "3d-model-layout",
+    "project-controls"
+  ],
+  "region": "Caribbean",
+  "country": "Trinidad and Tobago",
+  "status": "award pending",
+  "year": "",
+  "codes": [],
+  "software": [],
+  "facts": [
+    {
+      "label": "Deliverables",
+      "value": "~5,500"
+    },
+    {
+      "label": "Duration",
+      "value": ""
+    }
+  ],
+  "challenge": "The wellhead platform needs a complete set of as-built drawings and a 3D model, about 5,500 deliverables, delivered on the EPC contractor's close-out schedule.",
+  "approach": [
+    "Deliverables list and mark-up register set up at kick-off.",
+    "Production split by discipline with a dedicated checker per discipline.",
+    "Drawings and 3D model updated together and checked against the mark-ups."
+  ],
+  "quote": {
+    "text": "",
+    "by": "",
+    "permission": false
+  },
+  "images": [],
+  "reviewNotes": [
+    "BID STAGE: keep publish = false until the award is made and McDermott / Shell give permission."
+  ]
+}

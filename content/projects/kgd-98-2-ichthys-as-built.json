@@ -1,0 +1,64 @@
+{
+  "slug": "kgd-98-2-ichthys-as-built",
+  "publish": true,
+  "featured": false,
+  "order": 7,
+  "title": "ONGC KGD 98/2 and Ichthys: as-built drawings and 3D models",
+  "anonTitle": "As-built drawings and 3D models for two offshore developments",
+  "scope": "As-built drawings and 3D models.",
+  "epc": {
+    "name": "McDermott",
+    "permission": true
+  },
+  "anonEpc": "Offshore EPC contractor",
+  "endUser": {
+    "name": "ONGC · INPEX",
+    "permission": true
+  },
+  "anonEndUser": "Offshore operators, India and Australia",
+  "clientType": "EPC",
+  "assets": [],
+  "services": [
+    "as-built-3d"
+  ],
+  "disciplines": [
+    "3d-model-layout"
+  ],
+  "region": "South Asia / Australia",
+  "country": "India; Australia",
+  "status": "",
+  "year": "",
+  "codes": [],
+  "software": [],
+  "facts": [
+    {
+      "label": "Drawings issued",
+      "value": ""
+    },
+    {
+      "label": "3D models",
+      "value": ""
+    },
+    {
+      "label": "Duration",
+      "value": ""
+    }
+  ],
+  "challenge": "At close-out, the EPC contractor had to hand the operators as-built drawings and 3D models that matched the installed facilities.",
+  "approach": [
+    "Mark-up register set up so every red-line is traced to its drawing.",
+    "Drawings and 3D models updated together, so they agree.",
+    "Each as-built drawing checked against its mark-ups before issue."
+  ],
+  "quote": {
+    "text": "",
+    "by": "",
+    "permission": false
+  },
+  "images": [],
+  "reviewNotes": [
+    "Two projects in one entry: decide whether to split into two case studies.",
+    "Add asset types and modelling software.",
+    "Narrative drafted from the one-line scope: confirm with the project lead."
+  ]
+}
